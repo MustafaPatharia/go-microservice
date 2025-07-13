@@ -1,0 +1,48 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of build tools
+/build/
+/bin/
+
+# Vendor directory
+/vendor/
+
+# Dependency directories (remove the comment below if you use Go modules)
+# /Gopkg.lock
+# /Gopkg.toml
+
+# Go workspace file
+*.code-workspace
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Go coverage files
+*.coverprofile
+*.cov
+*.coverage
+
+# Test binary, cache, and result files
+*.test
+*.out
+*.tmp
+
+# Environment files
+.env
+.env.*
